@@ -72,27 +72,29 @@
 
         </li>
 
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.srcset.parse">module srcset.parse</a><ol>
-
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.srcset.parse.parse">
-            function <span class="apidocSignatureSpan">srcset.</span>parse
-            <span class="apidocSignatureSpan">(str)</span>
-            </a>
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">srcset.</span>index</span>
 
         </li>
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.srcset.stringify">module srcset.stringify</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.srcset.index">module srcset.index</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.srcset.stringify.stringify">
-            function <span class="apidocSignatureSpan">srcset.</span>stringify
+            <a class="apidocElementLiA" href="#apidoc.element.srcset.index.parse">
+            function <span class="apidocSignatureSpan">srcset.index.</span>parse
+            <span class="apidocSignatureSpan">(str)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.srcset.index.stringify">
+            function <span class="apidocSignatureSpan">srcset.index.</span>stringify
             <span class="apidocSignatureSpan">(arr)</span>
             </a>
 
@@ -141,23 +143,7 @@
 		return ret;
 	}));
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-```
-
-Then have some fun with it:
-
-```js
-var srcset = require('srcset');
-
-var parsed = srcset.<span class="apidocCodeKeywordSpan">parse</span>('banner-HD.jpg 2x, banner-phone.jpg 100w');
-console.log(parsed);
-/*
-[
-	{ url: 'banner-HD.jpg', density: 2 },
-	{ url: 'banner-phone.jpg', width: 100 }
-]
-*/
-...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -211,15 +197,17 @@ exports.parse = function (str) {
     </ul>
 
 
+
+
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.srcset.parse" id="apidoc.module.srcset.parse">module srcset.parse</a></h1>
+<h1><a href="#apidoc.module.srcset.index" id="apidoc.module.srcset.index">module srcset.index</a></h1>
 
 
     <h2>
-        <a href="#apidoc.element.srcset.parse.parse" id="apidoc.element.srcset.parse.parse">
-        function <span class="apidocSignatureSpan">srcset.</span>parse
+        <a href="#apidoc.element.srcset.index.parse" id="apidoc.element.srcset.index.parse">
+        function <span class="apidocSignatureSpan">srcset.index.</span>parse
         <span class="apidocSignatureSpan">(str)</span>
         </a>
     </h2>
@@ -252,35 +240,14 @@ exports.parse = function (str) {
 		return ret;
 	}));
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-```
-
-Then have some fun with it:
-
-```js
-var srcset = require('srcset');
-
-var parsed = srcset.<span class="apidocCodeKeywordSpan">parse</span>('banner-HD.jpg 2x, banner-phone.jpg 100w');
-console.log(parsed);
-/*
-[
-	{ url: 'banner-HD.jpg', density: 2 },
-	{ url: 'banner-phone.jpg', width: 100 }
-]
-*/
-...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.srcset.stringify" id="apidoc.module.srcset.stringify">module srcset.stringify</a></h1>
-
 
     <h2>
-        <a href="#apidoc.element.srcset.stringify.stringify" id="apidoc.element.srcset.stringify.stringify">
-        function <span class="apidocSignatureSpan">srcset.</span>stringify
+        <a href="#apidoc.element.srcset.index.stringify" id="apidoc.element.srcset.index.stringify">
+        function <span class="apidocSignatureSpan">srcset.index.</span>stringify
         <span class="apidocSignatureSpan">(arr)</span>
         </a>
     </h2>
