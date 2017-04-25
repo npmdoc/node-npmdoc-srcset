@@ -1,4 +1,7 @@
-# api documentation for  [srcset (v1.0.0)](https://github.com/sindresorhus/srcset#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-srcset.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-srcset) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-srcset.svg)](https://travis-ci.org/npmdoc/node-npmdoc-srcset)
+# npmdoc-srcset
+
+#### basic api documentation for  [srcset (v1.0.0)](https://github.com/sindresorhus/srcset#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-srcset.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-srcset) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-srcset.svg)](https://travis-ci.org/npmdoc/node-npmdoc-srcset)
+
 #### Parse and stringify the HTML <img> srcset attribute
 
 [![NPM](https://nodei.co/npm/srcset.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/srcset)
@@ -74,7 +77,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
